@@ -2,14 +2,10 @@
 ############################## Importamos librerías ###############################
 ###################################################################################
 import pandas as pd # Análisis y procesamiento de datos
-from sklearn.linear_model import LinearRegression # Análisis de regresión lineal
-from dateutil.relativedelta import relativedelta # Calcular resta de las fechas en meses
 from datetime import date, timedelta, datetime
-import numpy as np
 import dash # Creación de app web
 from dash import html, dcc, Input, Output, dash_table # elementos de la app web (Dash)
 import dash_bootstrap_components as dbc # Más elementos visuales del Dash
-import plotly.express as px # Creación de de timelines y pie charts
 import plotly.graph_objs as go # Creación de scatter plots, barras y líneas
 # **********************************************************************************
 
