@@ -470,6 +470,7 @@ class Indicadores():
 
         external_stylesheets = [dbc.themes.SPACELAB]  # Definición de la plantilla que da estilo al Dash
         app = dash.Dash(__name__, external_stylesheets=external_stylesheets)  # Creación del objeto Dash
+        server = app.server
         app.title = "Resumen General"
         app.layout = html.Div([
             ##################################### DROPDOWNS DE FILTROS ############################################
