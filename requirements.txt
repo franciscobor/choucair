@@ -2,5 +2,4 @@ pandas
 datetime
 dash
 dash_bootstrap_components
-plotly.graph_objs
 gunicorn
